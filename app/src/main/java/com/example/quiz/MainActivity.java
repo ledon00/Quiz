@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
         falseButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                checkAnswerCorrectness(true);
+                checkAnswerCorrectness(false);
             }
         });
         nextButton.setOnClickListener(new View.OnClickListener(){

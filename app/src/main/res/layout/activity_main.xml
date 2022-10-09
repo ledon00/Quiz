@@ -25,14 +25,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/button_true" />
+            android:background="#03AC13"
+            android:text="@string/button_true"
+            app:backgroundTint="#03AC13" />
 
         <Button
             android:id="@+id/false_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/button_false" />
+            android:background="#D21404"
+            android:text="@string/button_false"
+            app:backgroundTint="#D21404" />
     </LinearLayout>
 
     <Button
